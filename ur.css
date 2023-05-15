@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 20mm);
+    grid-template-rows: repeat(3, 20mm);
+    gap: 2mm;
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .grid-item {
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #aaaaaa;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .dead {
+    background-color: white;
+    border: 1px solid white;
+  }
+  
